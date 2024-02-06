@@ -1,0 +1,20 @@
+<style>
+    /* Define a class for section */
+    .section {
+        margin-bottom: 50px; /* Add space between sections */
+        position: relative; /* Needed for absolute positioning of page numbers */
+    }
+
+    /* Define a class for page numbering */
+    .page-number {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px; /* Adjust as needed */
+    }
+
+    /* Define page numbering for printing */
+    @page {
+        margin: 10%;
+    }
+</style>
